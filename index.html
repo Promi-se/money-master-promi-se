@@ -18,16 +18,42 @@
                 <img id="resizePic" class="w-5/6" src="photo/calculation-photo.jpeg" alt="">
             </div>
         </section>
-             <!-- Calculation Section -->
+                <!-- Calculation Section -->
         <section id="section2" class="mx-auto">
             <div id="calc-div" class="bg-gray-100 mx-auto py-8">
-             <!-- Income Part -->
+                <!-- Income Part -->
             <div class="">
                  <h2 class="font-semibold text-2xl text-center  mx-auto text-neutral-700">Income</h2>
             </div>
             <div class="grid w-5/6 grid-cols-2 mt-8 mx-auto">
                  <h1 id="income-input" class="mx-auto text-stale-500 text-lg">Income:</h1>
                  <input class="mr-16 p-2 bg-gray-300" type="text">
+            </div>
+                <!-- Expenses Part -->
+            <div class="mt-6 mx-auto">
+                <h2 class="font-semibold text-2xl text-center mx-auto text-neutral-700">Expenses</h2>
+            </div>
+            <div class="grid grid-cols-2 w-5/6 mt-8 mx-auto">
+                <h1 class=" mx-auto text-right text-stale-500 text-end text-lg ">Food:</h1>
+                <input id="food-input" class="mr-16 p-2 bg-gray-300" type="text">
+            </div>
+            <div class="grid grid-cols-2 w-5/6 mt-4 mx-auto">
+                <h1 class=" mx-auto text-right text-stale-500  text-end text-lg ">Rent:</h1>
+            <input id="rent-input" class="mr-16 p-2 bg-gray-300" type="text">
+            </div>
+            <div class="grid grid-cols-2 w-5/6 mt-4 mx-auto">
+                <h1 class=" mx-auto text-right text-stale-500 text-end text-lg ">Cloths:</h1>
+                <input id="cloths-input" class="mr-16 p-2 bg-gray-300" type="text">
+            </div>
+             <!-- Calculate Button -->
+             <div class="mx-auto text-center mt-10 ">
+                <button id="calc-btn" class="bg-blue-400 text-white
+                text-center rounded font-semibold text-xl pl-6 pb-2 pt-2 pr-6">Calculate</button>
+            </div>
+            <div class="mx-auto">
+                <h2 class="font-semibold text-2xl text-center mt-6 mx-auto text-neutral-700">Total Expenses: 0</h2>
+                <h2 class="font-semibold text-2xl text-center mt-4 mx-auto text-neutral-700 ">Balance: 0</h2>
+            </div>
             </div>
         </section>
     </section>

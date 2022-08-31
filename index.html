@@ -26,8 +26,8 @@
                  <h2 class="font-semibold text-2xl text-center  mx-auto text-neutral-700">Income</h2>
             </div>
             <div class="grid w-5/6 grid-cols-2 mt-8 mx-auto">
-                 <h1 id="income-input" class="mx-auto text-stale-500 text-lg">Income:</h1>
-                 <input class="mr-16 p-2 bg-gray-300" type="text">
+                 <h1 class="mx-auto text-stale-500 text-lg">Income:</h1>
+                 <input id="income-input" class="mr-16 p-2 bg-gray-300" type="text">
             </div>
                 <!-- Expenses Part -->
             <div class="mt-6 mx-auto">
@@ -51,8 +51,8 @@
                 text-center rounded font-semibold text-xl pl-6 pb-2 pt-2 pr-6">Calculate</button>
             </div>
             <div class="mx-auto">
-                <h2 class="font-semibold text-2xl text-center mt-6 mx-auto text-neutral-700">Total Expenses: 0</h2>
-                <h2 class="font-semibold text-2xl text-center mt-4 mx-auto text-neutral-700 ">Balance: 0</h2>
+                <h2 class="font-semibold text-2xl text-center mt-6 mx-auto text-neutral-700">Total Expenses: <span id="total-expenses">0</span></h2>
+                <h2 class="font-semibold text-2xl text-center mt-4 mx-auto text-neutral-700 ">Balance: <span id="total-balance">0</span></h2>
             </div>
                  <!-- Save part -->
             <div class="grid grid-cols-4 mt-8 w-3/4 mx-auto">
@@ -63,10 +63,10 @@
                      text-center pb-1 rounded font-semibold text-xl">Save</button>
             </div>
             <div class="mx-auto mt-8">
-                <h2 class="font-semibold text-2xl text-center mx-auto text-neutral-700">Saving Amount: 0</h2>
+                <h2 class="font-semibold text-2xl text-center mx-auto text-neutral-700">Saving Amount: <span id="saving-amount">0</span></h2>
             </div>
             <div class="mx-auto">
-                <h2 class="font-semibold text-2xl text-center mt-4 mb-2 mx-auto text-neutral-700">Remaining Balance: 0</h2>
+                <h2 class="font-semibold text-2xl text-center mt-4 mb-2 mx-auto text-neutral-700">Remaining Balance: <span id="remaining-balance">0</span></h2>
            </div>
             </div>
         </section>

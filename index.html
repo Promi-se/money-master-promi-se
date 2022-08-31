@@ -12,7 +12,7 @@
     <header class="text-5xl font-semibold text-teal-500 text-center mt-8">Expense Calculator</header>
     <main class="mt-12">
     <section id="flex-box" class="grid grid-cols-2 mx-auto">
-        <!-- Image Section -->
+                <!-- Image Section -->
         <section id="section1" class="mx-auto">
             <div id="div1Size" class="">
                 <img id="resizePic" class="w-5/6" src="photo/calculation-photo.jpeg" alt="">
@@ -45,7 +45,7 @@
                 <h1 class=" mx-auto text-right text-stale-500 text-end text-lg ">Cloths:</h1>
                 <input id="cloths-input" class="mr-16 p-2 bg-gray-300" type="text">
             </div>
-             <!-- Calculate Button -->
+                 <!-- Calculate Button -->
              <div class="mx-auto text-center mt-10 ">
                 <button id="calc-btn" class="bg-blue-400 text-white
                 text-center rounded font-semibold text-xl pl-6 pb-2 pt-2 pr-6">Calculate</button>
@@ -54,6 +54,20 @@
                 <h2 class="font-semibold text-2xl text-center mt-6 mx-auto text-neutral-700">Total Expenses: 0</h2>
                 <h2 class="font-semibold text-2xl text-center mt-4 mx-auto text-neutral-700 ">Balance: 0</h2>
             </div>
+                 <!-- Save part -->
+            <div class="grid grid-cols-4 mt-8 w-3/4 mx-auto">
+                <h1 class="text-stale-500 pt-1 pl-8 text-center text-lg ">Save: </h1>
+                <input id="save-input" class="ml-8 p-2 bg-gray-300" type="text">
+                <p class="text-center pt-2">%</p>
+                <button id="save-btn" class="bg-blue-400 text-white
+                     text-center pb-1 rounded font-semibold text-xl">Save</button>
+            </div>
+            <div class="mx-auto mt-8">
+                <h2 class="font-semibold text-2xl text-center mx-auto text-neutral-700">Saving Amount: 0</h2>
+            </div>
+            <div class="mx-auto">
+                <h2 class="font-semibold text-2xl text-center mt-4 mb-2 mx-auto text-neutral-700">Remaining Balance: 0</h2>
+           </div>
             </div>
         </section>
     </section>
